@@ -1,0 +1,26 @@
+{
+  "name": "jquery-plugin-wrapper-resizer",
+  "version": "1.0.0",
+  "description": "Jquery plugin to resize parent/wrapper/container width so that all childs are covered",
+  "main": "jquery-plugin-wrapper-resizer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveento/jquery-wrapper-resizer.git"
+  },
+  "keywords": [
+    "jquery-plugin"
+  ],
+  "author": "naveento",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naveento/jquery-wrapper-resizer/issues"
+  },
+  "homepage": "https://github.com/naveento/jquery-wrapper-resizer#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jsdom": "^15.1.1"
+  }
+}

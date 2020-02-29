@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./jquery-plugin-wrapper-resizer.js"></script>
+<style>
+.page {
+    width: 10px;
+    border:dotted 10px blue;
+}
+
+.my-table {
+    word-wrap: break-word; 
+}
+
+.my-table td {
+    border:solid 1px #333;
+}
+</style>
+<script>
+window.onload=function(){
+/*
+if element size less than childs width, it will try to increase width to cover them.
+for any childs width, it would cover them.
+*/
+$("div").first().wrapChilds();
+
+}
+
+
+</script>
+</head>
+<body>
+<div class="page">
+<table class="my-table">
+        <tr>
+            <th>Header Text</th>
+            <th>Col 1</th>
+            <th>Col 2</th>
+            <th>Col 3</th>
+            <th>Col 4</th>
+            <th>Header Text</th>
+        </tr>
+        <tr>
+            <td>An archipelago is a chain or cluster of islands. The word archipelago is derived from the Greek ἄρχι- – arkhi and πέλαγος – pélagosthrough the Italian arcipelago. In Italian, possibly following a tradition of antiquity, the Arcipelago (from medieval Greek *ἀρχιπέλαγος) was the proper name for the Aegean Sea and, later, usage shifted to refer to the Aegean Islands (since the sea is remarkable for its large number of islands). It is now used to refer to any island group or, sometimes, to a sea containing a large number of scattered islands such as the Aegean Sea.[1]</td>
+            <td>some data</td>
+            <td>some data</td>
+            <td>some data</td>
+            <td>some data</td>
+            <td>An archipelago is a chain or cluster of islands. The word archipelago is derived from the Greek ἄρχι- – arkhi and πέλαγος – pélagosthrough the Italian arcipelago. In Italian, possibly following a tradition of antiquity, the Arcipelago (from medieval Greek *ἀρχιπέλαγος) was the proper name for the Aegean Sea and, later, usage shifted to refer to the Aegean Islands (since the sea is remarkable for its large number of islands). It is now used to refer to any island group or, sometimes, to a sea containing a large number of scattered islands such as the Aegean Sea.[1]</td>
+        </tr>
+    </table>    
+</div>
+</body>
+</html>
