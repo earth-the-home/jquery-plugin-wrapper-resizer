@@ -3,11 +3,12 @@
 Jquery plugin to increase css width of parent element with respect to childs
 
 Installation
-Node.js:
-`$ npm install jquery-plugin-wrapper-resizer --save`
 
 Directly:
 `<script src="jquery-plugin-wrapper-resizer.js"></script>`
+
+Node.js:
+ Work in progress
 
 ### Unit testing:
 
