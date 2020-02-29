@@ -1,7 +1,8 @@
-(function ( $ ) {
+(function ( global ) {
 
 //to resize parent/wrapper/container width so that all childs are covered
 $.fn.wrapChilds = function(){
+	console.log("called");
 widthResizer($(this));//adjust parent width based on child widths
 return this;
 };
@@ -18,4 +19,7 @@ updated=$this[0].scrollWidth;
 }
 
 
-})($);
+})(this);
+
+
+
