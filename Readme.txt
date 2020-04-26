@@ -12,7 +12,7 @@ Node.js:
 
 ### Unit testing:
 
-run static test.html file which is available in source code.
+open test.html file which is available in source code.
 
 ### License
 ### MIT
